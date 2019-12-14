@@ -1,0 +1,340 @@
+@font-face {
+	font-family: 'Zeroes One';
+	src:url('zeroes one.woff2') format('woff2'),
+		url('zeroes one.woff') format('woff'),
+		url('zeroes one.ttf')  format('truetype');
+}
+
+html,body{
+  margin:0;
+  color:#000;
+  font-family:zeroes one;
+  overflow-x:hidden;
+  background:#65e9f3;
+}
+
+.header{
+  width:100%;
+  height:10vw;
+  background:#000;
+  font-size:5vw;
+}
+
+.animation{
+  background:#000;
+  width:100vw;
+  height:10vw;
+}
+
+.clear{
+  clear:both;
+}
+
+.i{
+  text-shadow: 0 0 #000,0 0 #000,0 0 #000,0 0 #000;
+  color:#65e9f3;
+}
+
+.headerLogo{
+  position:absolute;
+  width:38vw;
+  margin-top:.3vw;
+  margin-left:2vw;
+}
+
+.phonePlug{
+  position:absolute;
+  right:5vw;
+  color:#65e9f3;
+  font-size:1.6vw;
+  top:2.5vw;
+}
+
+.phoneIcon{
+  float:left;
+  background:url(phone.png);
+  background-size:3vw 4.8545454545454545454545454545455vw;
+  width:3vw;
+  height:4.8545454545454545454545454545455vw;
+}
+
+.phonePlugText{
+  float:left;
+  margin-top:.7vw;
+  text-align:right;
+  margin-right:1vw;
+}
+
+@media screen and (orientation: landscape) {
+  .leftFrame{
+    width:50%;
+    float:left;
+  }
+
+  .rightFrame{
+    width:50%;
+    float:right;
+  }
+
+  .whistleBlowingGraphic{
+    background:url(protestor1.png) no-repeat;
+    background-size:50vw;
+    background-position:50% 0;
+    height:43.675889328063241106719367588931vw;
+    margin-top:4vw;
+  }
+  .whistleBlowingText{
+    text-align:right;
+    width:85%;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:3vw;
+    line-height:4.5vw;
+    margin-top:4vw;
+    font-size:1.1vw;
+  }
+
+  .searchGraphic{
+    background:url(search1.png) no-repeat;
+    background-size:50vw;
+    background-position:50% 0;
+    height:41.499999999999999999999999999999vw;
+  }
+
+  .searchText{
+    text-align:left;
+    margin-left:9vw;
+    margin-top:4vw;
+    padding-bottom:2vw;
+    line-height:3vw;
+    font-size:.9vw;
+  }
+
+  .justiceGraphic{
+    background:url(justice1.png) no-repeat;
+    background-position:50% 0;
+    background-size:50vw;
+    height:33.350000000000000000000000000001vw;
+  }
+
+  .justiceText{
+    text-align:right;
+    width:85%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:4vw;
+    line-height:3em;
+    font-size:1vw;
+    padding-right:15vw;
+  }
+
+  .phoneIDGraphic{
+    background:url(phoneID1.png) no-repeat;
+    background-position:50% 0;
+    background-size:50vw;
+    height:60.679611650485436893203883495146vw;
+  }
+
+  .phoneIDText{
+    margin-top:8vw;
+    text-align:right;
+    width:90%;
+    margin-right:auto;
+    margin-left:auto;
+    padding-right:8vw;
+    font-size:1vw;
+    line-height:3.5vw;
+  }
+  
+  .spacer{
+    background:#153133;
+    height:2vw;
+  }
+}
+@media screen and (orientation: portrait) {
+  .leftFrame{
+    width:100%;
+    float:left;
+  }
+
+  .rightFrame{
+    width:100%;
+    float:left;
+  }
+
+  .whistleBlowingGraphic{
+    background:url(protestor1.png) no-repeat;
+    background-size:80vw;
+    background-position:50% 0;
+    height:69.8814224vw;
+    margin-top:4vw;
+  }
+  .whistleBlowingText{
+    text-align:right;
+    width:60%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:4vw;
+    font-size:1.5vw;
+    line-height:3.8em;
+    padding-bottom:4vw;
+  }
+
+  .searchGraphic{
+    background:url(search1.png) no-repeat;
+    background-size:80vw;
+    background-position:50% 0;
+    height:66.4vw;
+  }
+
+  .searchText{
+    width:60%;
+    margin-top:4vw;
+    line-height:6vw;
+    text-align:right;
+    margin-left:auto;
+    margin-right:auto;
+    font-size:1.5vw;
+  }
+  
+  .justiceGraphic{
+    background:url(justice1.png) no-repeat;
+    background-position:50% 0;
+    background-size:80vw;
+    height:53.36vw;
+  }
+
+  .justiceText{
+    text-align:left;
+    width:65%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:4vw;
+    line-height:5.25vw;
+    font-size:1.45vw;
+    padding-bottom:2vw;
+    padding-left:25vw;
+  }
+
+  .phoneIDGraphic{
+    background:url(phoneID1.png) no-repeat;
+    background-position:50% 0;
+    background-size:80vw;
+    height:97.08737864vw;
+  }
+
+  .phoneIDText{
+    margin-top:8vw;
+    text-align:left;
+    line-height:5.5vw;
+    font-size:1.35vw;
+    margin-bottom:10vw;
+  }
+
+  .spacer{
+    background:#153133;
+    height:10vw;
+  }
+}
+
+.frame1{
+  width:100%;
+}
+
+.wbt1{
+  font-size:4em;
+}
+
+.wbt2{
+  font-size:6.25em;
+}
+
+.wbt3{
+  font-size:6.1em;
+  margin-right:-1.6vw;
+}
+
+.wbt4{
+  font-size:1.5em;
+  line-height:1.5em;
+}
+
+.wbt5{
+  font-size:3.5em;
+  line-height:0px;
+}
+
+.wbt6{
+  font-size:1.75em;
+}
+
+.frame2{
+  width:100%;
+}
+
+.search1{
+  font-size:2.7em;
+}
+
+.search2{
+  font-size:4.45em;
+}
+
+.search3{
+  line-height:1.35em;
+  font-size:1.5em;
+}
+
+.search4{
+  font-size:3em;
+}
+
+.search5{
+  font-size:3.5em;
+}
+
+.frame3{
+  width:100%;
+}
+
+.jus1{
+  font-size:4em;
+}
+
+.jus2{
+  font-size:6.5em;
+  margin-right:-1.5vw;
+}
+
+.jus3{
+  line-height:1.5em;
+  font-size:1.5em;
+}
+
+.jus4{
+  font-size:2.5em;
+}
+
+.frame4{
+  width:100%;
+}
+
+.phoneIDRightPanel{
+  position:absolute;
+  width:70vw;
+  right:0;
+}
+
+.phone1{
+  font-size:4em;
+}
+
+.phone2{
+  font-size:8.1em;
+  margin-right:-1.8vw;
+}
+
+.phone3{
+  font-size:1.5em;
+  line-height:1.45em;
+}
